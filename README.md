@@ -96,7 +96,7 @@ And get relevant product recommendations with AI-powered answers.
 
 ```mermaid
 graph TD
-    A[Start: Load Fashion Dataset (CSV)] --> B[EDA: Explore and Clean Data]
+    A[Start: Load Fashion Dataset CSV] --> B[EDA: Explore and Clean Data]
     B --> C[Embedding Generation using SentenceTransformer]
     C --> D[Store Embeddings in ChromaDB]
     D --> E[Ready for Retrieval using FashionRAGAssistant]
