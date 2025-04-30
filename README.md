@@ -101,11 +101,11 @@ graph TD
     C --> D[Store Embeddings in ChromaDB]
     D --> E[Ready for Retrieval using FashionRAGAssistant]
 
-    style A fill:#cce5ff,stroke:#004085,stroke-width:2px
-    style B fill:#ffeeba,stroke:#856404,stroke-width:2px
-    style C fill:#d6d8db,stroke:#383d41,stroke-width:2px
-    style D fill:#e2e3e5,stroke:#6c757d,stroke-width:2px
-    style E fill:#d4edda,stroke:#155724,stroke-width:2px
+    style A fill:#f0f8ff,color:#111,stroke:#333,stroke-width:2px
+    style B fill:#fff8dc,color:#111,stroke:#333,stroke-width:2px
+    style C fill:#f5f5f5,color:#111,stroke:#333,stroke-width:2px
+    style D fill:#f3e5f5,color:#111,stroke:#333,stroke-width:2px
+    style E fill:#e8f5e9,color:#111,stroke:#333,stroke-width:2px
 ```
 
 ### 🔍 FashionRAGAssistant Architecture: Retrieval-Augmented Generation Flow
@@ -120,14 +120,14 @@ graph TD
     F --> G[Call OpenAI ChatCompletion API]
     G --> H[Generate Natural Language Response]
 
-    style A fill:#d1ecf1,stroke:#0c5460,stroke-width:2px
-    style B fill:#d4edda,stroke:#155724,stroke-width:2px
-    style C fill:#fff3cd,stroke:#856404,stroke-width:2px
-    style D fill:#e2e3e5,stroke:#6c757d,stroke-width:2px
-    style E fill:#f8d7da,stroke:#721c24,stroke-width:2px
-    style F fill:#e2e3e5,stroke:#343a40,stroke-width:2px
-    style G fill:#cce5ff,stroke:#004085,stroke-width:2px
-    style H fill:#d4edda,stroke:#155724,stroke-width:2px
+    style A fill:#f0f8ff,color:#111,stroke:#333,stroke-width:2px
+    style B fill:#e8f5e9,color:#111,stroke:#333,stroke-width:2px
+    style C fill:#fff8dc,color:#111,stroke:#333,stroke-width:2px
+    style D fill:#f5f5f5,color:#111,stroke:#333,stroke-width:2px
+    style E fill:#fdecea,color:#111,stroke:#333,stroke-width:2px
+    style F fill:#f5f5f5,color:#111,stroke:#333,stroke-width:2px
+    style G fill:#f0f8ff,color:#111,stroke:#333,stroke-width:2px
+    style H fill:#e8f5e9,color:#111,stroke:#333,stroke-width:2px
 ```
 
 ## 📦 Requirements
