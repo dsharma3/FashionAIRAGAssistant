@@ -144,7 +144,7 @@ Installed via `requirements.txt`:
 
 ## 🧠 Credits
 
-Created by [Your Name]. Powered by OpenAI, ChromaDB, HuggingFace Transformers, and Streamlit.
+Created by Divyesh Sharma. Powered by OpenAI, ChromaDB, HuggingFace Transformers, and Streamlit.
 
 ---
 
